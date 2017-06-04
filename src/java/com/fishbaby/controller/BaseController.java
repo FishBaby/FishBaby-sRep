@@ -1,4 +1,4 @@
-package main.java.com.fishbaby.controller;
+package com.fishbaby.controller;
 
 /**
  * Created by yuminghui3 on 2017/6/4.
