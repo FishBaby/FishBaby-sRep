@@ -261,16 +261,7 @@
             <artifactId>gson</artifactId>
             <version>2.2</version>
         </dependency>
-        <dependency>
-            <groupId>jackson-all</groupId>
-            <artifactId>jackson-all</artifactId>
-            <version>2.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.pdfview</groupId>
-            <artifactId>PDFRenderer</artifactId>
-            <version>0.9.1</version>
-        </dependency>
+        
         <dependency>
             <groupId>commons-httpclient</groupId>
             <artifactId>commons-httpclient</artifactId>
@@ -305,11 +296,11 @@
         <testSourceDirectory>src/test/</testSourceDirectory>
         <resources>
             <resource>
-                <directory>src/main/resources</directory>
+                <directory>src/resources</directory>
                 <filtering>true</filtering>
             </resource>
             <resource>
-                <directory>src/main/java</directory>
+                <directory>src/java</directory>
                 <includes>
                     <include>**/*.properties</include>
                     <include>**/*.xml</include>
