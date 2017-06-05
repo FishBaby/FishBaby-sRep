@@ -378,4 +378,5 @@
 		</activation> </profile> integrate test <profile> <id>test</id> <build> <filters> 
 		<filter>filter-test.properties</filter> </filters> </build> </profile> </profiles> -->
 
+	<packaging>war</packaging>
 </project>
