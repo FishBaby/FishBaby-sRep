@@ -1,3 +1,4 @@
+/*
 package com.fishbaby.common.utils;
 
 import java.io.File;
@@ -21,15 +22,18 @@ import org.springframework.web.multipart.MultipartFile;
 import com.fishbaby.common.exception.BeanParseException;
 
 
+*/
 /**
  * 描述：Excel写操作帮助类
  * 
  * @since 2010-11-24
  * @version 1.0v
- */
+ *//*
+
 public class ExcelUtil {
 
-	/**
+	*/
+/**
 	 * 从文件里面读取excel内容
 	 * 
 	 * @param wb
@@ -38,7 +42,8 @@ public class ExcelUtil {
 	 * @throws IOException
 	 * @throws FileNotFoundException
 	 * @throws BeanParseException
-	 */
+	 *//*
+
 	public static String[][] readFromFile(File wbFile, int lineNum, int maxRowNum) throws FileNotFoundException, IOException, BeanParseException {
 		if (wbFile == null) {
 			return null;
@@ -52,7 +57,8 @@ public class ExcelUtil {
 		}
 	}
 
-	/**
+	*/
+/**
 	 * 从文件里面读取excel内容
 	 * 
 	 * @param wb
@@ -61,7 +67,8 @@ public class ExcelUtil {
 	 * @throws IOException
 	 * @throws FileNotFoundException
 	 * @throws BeanParseException
-	 */
+	 *//*
+
 	public static String[][] readFromFile(MultipartFile wbFile, int lineNum, int maxRowNum) throws FileNotFoundException, IOException, BeanParseException {
 		if (wbFile == null) {
 			return null;
@@ -95,7 +102,8 @@ public class ExcelUtil {
 		}
 	}
 
-	/**
+	*/
+/**
 	 * 从文件里面读取excel内容
 	 * 
 	 * @param wb
@@ -104,7 +112,8 @@ public class ExcelUtil {
 	 * @throws IOException
 	 * @throws FileNotFoundException
 	 * @throws BeanParseException
-	 */
+	 *//*
+
 	private static String[][] readFromFile(Sheet sheet, int lineNum, int maxRowNum) throws FileNotFoundException, IOException, BeanParseException {
 		String[][] returns;
 		int lastRowNum = sheet.getLastRowNum();
@@ -159,3 +168,4 @@ public class ExcelUtil {
 		return returns;
 	}
 }
+*/
